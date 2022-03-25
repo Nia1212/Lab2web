@@ -98,6 +98,7 @@ Ini adalah contoh code hasilnya
 ![Gambar](img/ss5.png)
 css selector adalah pemilihan dengan menggunakan id atau class dan bisa juga selector pada tag dan element html id menggunakan code yang dimana didalam file css menggunakan (#) sedangkan class menggunakan code yang ketika di css pendeklarasiannya yaitu (.) sedangkan selector element atau tag pendeklarasiannya (p) atau element lainnya.
 ## Code
+```css
     /* ID SELECTOR */
         #intro{
             background: #fed9b7;
@@ -122,5 +123,19 @@ css selector adalah pemilihan dengan menggunakan id atau class dan bisa juga sel
         }
         .btn-primary{
             background: #f25c54;
-            
-        }
+```
+
+# Tugas
+
+1. Disini saya melakukan perubahan pada ``intro h1`` dengan merubah ``color``-nya menjadi hitam, dan menambahkan ``border-radius: 10px;`` pada ``button``.
+![Gambar](img/ss6.png)
+
+2. pendeklarasian CSS #intro h1{..} adalah dengan menggunakan selector id, sedangkan h1{..} tidak menggunakan selector.
+
+3. Ketika kita mendeklarasikan secara bersamaan antara INTERNAL, EKSTERNAL dan INLINE, yang akan ditampilkan pada Browser adalah INLINE. Karena INLINE Memiliki deklarasi prioritas dibanding EKSTERNAL atau pun INTERNAL, seperti contoh yang saya buat, saya membuat dokumen baru HTML kemudian saya buat Elemen {h1} yang kemudian saya akan deklarasikan di CSS INTERNAL, EKSTERNAL dan juga INLINE Dengan property {color} yang berbeda, jika INTERNAL {color: red}, sementara EKSTERNAL {color:green;} dan INLINE {color: blue;}. Maka yang terpanggil di browser adalah INLINE karena memiliki prioritas.
+![Gambar](img/ss7.png)
+Hasil Deklarasinya
+![Gambar](img/ss8.png)
+
+4. Maka yang ditampilkan pertama adalah ID, karena ID adalah hitungan poin selector yang lebih besar daripada Class.
+![Gambar](img/ss9.png)
